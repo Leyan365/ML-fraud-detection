@@ -25,7 +25,6 @@ We use the **Fraud Detection Dataset** from Kaggle by Aman Ali Siddiqui, which i
 ├── README.md ← This documentation
 
 └── .gitignore ← Files/folders to exclude from Git tracking
-\`\`\`
 
 ---
 
