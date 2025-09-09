@@ -15,8 +15,7 @@ We use the **Fraud Detection Dataset** from Kaggle by Aman Ali Siddiqui, which i
 
 ### 📁 Repository Contents
 
-\`\`\`
-/
+
 ├── Fraud_Detection.ipynb ← Jupyter notebook: full EDA, preprocessing, modeling workflow
 
 ├── fraud_detection.py ← Streamlit app script for demoing the model
