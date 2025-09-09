@@ -18,9 +18,13 @@ We use the **Fraud Detection Dataset** from Kaggle by Aman Ali Siddiqui, which i
 \`\`\`
 /
 ├── Fraud_Detection.ipynb ← Jupyter notebook: full EDA, preprocessing, modeling workflow
+
 ├── fraud_detection.py ← Streamlit app script for demoing the model
+
 ├── fraud_detection_pipeline.pkl ← Serialized trained ML pipeline (e.g., logistic regression)
+
 ├── README.md ← This documentation
+
 └── .gitignore ← Files/folders to exclude from Git tracking
 \`\`\`
 
@@ -30,10 +34,6 @@ We use the **Fraud Detection Dataset** from Kaggle by Aman Ali Siddiqui, which i
 
 #### 1. Clone the repository
 
-\`\`\`bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-\`\`\`
 
 #### 2. Download the dataset
 
@@ -42,9 +42,8 @@ Download the dataset from Kaggle (link above). Place the dataset file (e.g., \`A
 
 #### 3. Launch the Streamlit app
 
-\`\`\`bash
 streamlit run fraud_detection.py
-\`\`\`
+
 
 This will open the app in your browser, where you can test predictions using the trained model.
 
@@ -78,7 +77,3 @@ Metrics including precision, recall, confusion matrix, and accuracy were examine
 
 The trained pipeline is saved as \`fraud_detection_pipeline.pkl\`, loaded in \`fraud_detection.py\`, which features interactive UI to input transaction data and get fraud predictions in real-time.
 "
-
-
-echo "Repository structure and files created successfully in '$REPO_NAME'!"
-echo "Remember to replace '<your-username>' and '<repo-name>' in the README with your actual GitHub details."
